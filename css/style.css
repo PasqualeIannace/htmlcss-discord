@@ -5,9 +5,13 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
-    background-color: #ADD8E6;
-    height: 483px;
+    background-color: #3161E0;
+    min-height: 594px;
     display: flex;
     flex-direction: column;
 }
@@ -35,12 +39,41 @@ footer {
 }
 
 .header {
-    border: 2px dashed black;
     font-size: 17px;
     height: 100%;
     width: 100%;
     text-align: center;
     padding-top: 8px;
+}
+
+.hBlocco1, .hBlocco3 {
+    width: 30%;
+    padding-top: 0;
+}
+
+.hBlocco2 {
+
+}
+
+.download {
+    height: 58px;
+    width: 230px;
+}
+
+.frecciaDownload {
+    height: 18px;
+    padding: 0px 3px 0 0;
+}
+
+.tastoBrowser {
+    height: 58px;
+    width: 340px;
+}
+
+.tasto {
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 0 10px;
 }
 
 .headerContainer {
@@ -50,39 +83,78 @@ footer {
     width: 100%;
     height: 40px;
     margin-bottom: 20px;
-    background-color: #DAA521;
 }
 
 .background {
-    background-color: #00008B;
-    height: 400px;
+    background-image: url(../img/jumbo.png);
+    height: 803px;
+    background-size: cover;
 }
 
 .quadratoViola {
-    background-color: #EE81EE;
-    height: 315px;
-    border: 2px dashed black;
+    height: 550px;
     width: 50%;
     margin: 40px auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 50px;
 }
 
     /* Classe MAIN */
-.quadratoBlu {
-    background-color: #1D90FF;
+.imgMain {
     height: 615px;
-    border: 2px dashed black;
     width: 60%;
-    margin: 40px auto;
+    margin: 70px auto;
+    background-size: 840px;
+    background-repeat: no-repeat;
+}
+
+.imgMainBig {
+    height: 750px;
+    margin: 25px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgItem1 {
+    background-image: url(../img/item1.svg);
+}
+
+.imgItem2 {
+    background-image: url(../img/item2.svg);
+}
+
+.imgItem3 {
+    background-image: url(../img/item3.svg);
+}
+
+.imgItem4 {
+    background-image: url(../img/item4-big.svg);
+}
+
+.hSize {
+    font-size: 55px;
 }
 
 .quadratoRosa {
-    background-color: #FFBFCB;
     height: 615px;
-    border: 2px dashed black;
     width: 40%;
-    margin: 40px auto;
+    margin: 70px auto;
 }
 
+.paddingLeft {
+    padding-left: 135px;
+    padding-top: 45px;
+}
+
+.paddingRight {
+    padding-right: 135px;
+    padding-top: 45px;
+}
+
+.paddingVerde {
+    padding: 25px 110px 0 110px;
+}
 .quadratoVerde {
     background-color: #238B21;
     height: 1110px;
@@ -91,8 +163,12 @@ footer {
     margin: 40px auto;
 }
 
+.bgStar {
+    background-image: url(../img/stars.svg);
+}
+
 .backgrGray {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .mainContainer {
@@ -147,7 +223,48 @@ footer {
 
 }
 
+.bold {
+    font-weight: 600;
+}
+
+.pSize {
+    font-size: 26px;
+}
+
+.pCenter {
+    text-align: center;
+}
+
+.white {
+    color: white
+}
+
 /* TAG */
 hr {
     background-color: #D3D3D3;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+button {
+    background-color: white;
+    border-radius: 21px;
+    border: white;
+    width: 78px;
+    height: 42px;
+}
+
+h1 {
+    font-size: 65px;
+    color: white;
+}
+
+p {
+    font-size: 23px;
+    padding-top: 25px;
+    line-height: 32px;
 }
