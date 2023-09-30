@@ -51,8 +51,8 @@ footer {
     padding-top: 0;
 }
 
-.hBlocco2 {
-
+.font30 {
+    font-size: 30px;
 }
 
 .download {
@@ -68,6 +68,8 @@ footer {
 .tastoBrowser {
     height: 58px;
     width: 340px;
+    background: #23272A;
+    color: white;
 }
 
 .tasto {
@@ -156,19 +158,30 @@ footer {
     padding: 25px 110px 0 110px;
 }
 .quadratoVerde {
-    background-color: #238B21;
-    height: 1110px;
-    border: 2px dashed black;
+    min-height: 1300px;
     width: 100%;
     margin: 40px auto;
 }
 
 .bgStar {
     background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    margin: 50px 360px;
+    padding-top: 50px;
+    font-size: 17px;
 }
 
 .backgrGray {
     background-color: #F6F6F6;
+}
+
+.violet {
+    background: #8FA0E1;
+}
+
+.whiteArrow {
+    filter: invert(100%) sepia(0%) saturate(7495%) hue-rotate(347deg) brightness(103%) contrast(103%);
 }
 
 .mainContainer {
@@ -186,6 +199,27 @@ footer {
     border: 2px dashed black;
     width: 25%;
     margin: 40px auto;
+    color: white;
+}
+
+.iconSocial {
+    height: 25px;
+}
+
+.font40 {
+    font-size: 40px;
+}
+
+.violetTxt {
+    color: #8FA0E1;
+}
+
+.angleD {
+    height: 15px;
+}
+
+.heigt20 {
+    height: 20px;
 }
 
 .quadratoPetrolio {
