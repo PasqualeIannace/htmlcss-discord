@@ -22,7 +22,7 @@ main {
 
 footer {
     background-color: #23272A;
-    height: 740px;
+    height: 669px;
     display: flex;
     flex-direction: column;
 }
@@ -53,6 +53,10 @@ footer {
 
 .font30 {
     font-size: 30px;
+}
+
+.padding20 {
+    padding: 0 20px;
 }
 
 .download {
@@ -112,7 +116,7 @@ footer {
 }
 
 .imgMainBig {
-    height: 750px;
+    height: 787px;
     margin: 25px auto;
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,9 +198,7 @@ footer {
  /* Classe FOOTER */
 
  .quadratoPesca {
-    background-color: #F08080;
-    height: 569px;
-    border: 2px dashed black;
+    height: 500px;
     width: 25%;
     margin: 40px auto;
     color: white;
@@ -204,6 +206,11 @@ footer {
 
 .iconSocial {
     height: 25px;
+    margin: 20px 20px 0 0;
+}
+
+.marginB {
+    margin-bottom: 25px;
 }
 
 .font40 {
@@ -222,18 +229,26 @@ footer {
     height: 20px;
 }
 
+li {
+    list-style: none;
+}
+
+.linkFoot {
+    margin-top: 10px;
+}
+
 .quadratoPetrolio {
     display: flex;
-    background-color: #20B2AA;
-    height: 569px;
-    border: 2px dashed black;
+    height: 500px;
     width: 75%;
     margin: 40px auto;
 }
 
 .sottocella {
-    border: 2px dashed white;
     width: 25%;
+    padding-left: 70px;
+    padding-top: 12px;
+    font-size: 18px;
 }
 
 .footerContainer {
@@ -275,13 +290,13 @@ footer {
 
 /* TAG */
 hr {
-    background-color: #D3D3D3;
+    border: 1px solid #8F9FE1;
+    margin: 0px 270px;
 }
 
 a {
     color: white;
     text-decoration: none;
-    padding: 0px 20px;
 }
 
 button {
