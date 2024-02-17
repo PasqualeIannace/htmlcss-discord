@@ -110,6 +110,17 @@ footer {
 }
 
 /* Classe MAIN */
+.wave {
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    filter: opacity(0.037);
+    height: 100px;
+}
+
+.reverse {
+    transform: rotate(180deg);
+}
+
 .imgMain {
     height: 615px;
     width: 60%;
@@ -233,10 +244,6 @@ footer {
     height: 20px;
 }
 
-li {
-    list-style: none;
-}
-
 .linkFoot {
     margin-top: 10px;
 }
@@ -318,4 +325,8 @@ p {
     font-size: 23px;
     padding-top: 25px;
     line-height: 32px;
+}
+
+li {
+    list-style: none;
 }
